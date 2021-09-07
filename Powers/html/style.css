@@ -1,0 +1,152 @@
+/*color of every text. */
+* {
+	color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+/* This css centers at the middle of the screen */
+#powers {
+	text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(161, 4, 4);
+    top: 43%;
+    left: 92%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+	text-align: center;
+    background-color: #272727;
+    border-left: 2px solid yellow;
+	border-radius: 3px;
+    height: 397px;
+    width: 310px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: slide;
+    animation-duration: 4s;
+}
+
+#Super-Melee {
+    background-color: #272727;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid white;
+}
+
+#Super-Melee:hover {
+   cursor: pointer;
+   background-color: #505050;
+   border: none;
+   border: 1px solid lime;
+}
+
+#Super-Jump {
+    background-color: #272727;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 6px;
+    border: none;
+    border: 1px solid white;
+}
+
+#Super-Jump:hover {
+   cursor: pointer;
+   background-color: #505050;
+   border: none;
+   border: 1px solid lime;
+}
+
+#Super-FastRun {
+    background-color: #272727;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: none;
+    border: 1px solid white;
+}
+
+#SUper-FastRun:hover {
+   cursor: pointer;
+   background-color: #505050;
+   border: none;
+   border: 1px solid lime;
+}
+
+#Super-FastSwim {
+    background-color: #272727;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: none;
+    border: 1px solid white;
+}
+
+#Super-FastSwim:hover {
+   cursor: pointer;
+   background-color: #505050;
+   border: none;
+   border: 1px solid lime;
+}
+
+#Melee-Cust {
+    height: 20px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+}
+
+h1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 38;
+    overflow: hidden;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+    background-color: rgba(51, 51, 51, 0.712); 
+    padding-top: 1px;
+    font-size: 14px;
+   
+}
+
+h4 {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 14;
+}
+
+h5 {
+    text-align: center;
+    font-size: 13;
+    padding-left: 0px;
+    background-color: #6e6e6e04;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h6 {
+    text-align: center;
+    font-size: 13;
+    margin-left: 6px;
+}
+
+
+@keyframes slide {
+    from {left: 113%;}
+    to {left: 92%;}
+  }
+
+
+
+
+
